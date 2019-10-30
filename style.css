@@ -1,0 +1,146 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin-left: 180px;
+    margin-right: 180px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+body {
+  background-color: #F6F4F3;
+  font-family: 'Raleway', sans-serif;
+  color: #003f5c;
+  font-weight: 200;
+}
+
+h1 {
+  font-family: 'Bangers', cursive;
+  color: #A91118;
+  font-size: 80px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  color: #003f5c;
+  font-size: 50px
+  font-weight: lighter;
+  letter-spacing: 1px
+}
+
+h3 {
+  font-family: 'Bangers', cursive;
+  color: #A91118;
+  font-size: 100px
+  font-weight: lighter;
+  letter-spacing: 3px
+}
+
+img {
+  margin-top: 20px;
+  border-radius: 75px;
+}
+
+img:hover{
+  transform: scale(1.3, 1.3);
+}
+
+
+
+.description {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.black_btn {
+  background: #0B3C49;
+  font-family: 'Bangers', cursive;
+  font-size: 22px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #F6F4F3;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.black_btn:hover{
+  background: rgba(11, 60, 73, 0.9);
+  letter-spacing: 2px;
+  padding: 12px;
+  color: #F6F4F5;
+}
+
+.container{
+  margin-left: 180px;
+  margin-right: 180px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0px 10px 40px rgba(0,0,0,0.5);
+  border-radius: 5px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.button{
+  margin-top: 40px
+}
+
+.ul{
+  display: block;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.fab{
+  font-size: 50px;
+  color: #003f5c;
+}
+
+.fab:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}*/
+
